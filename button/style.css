@@ -1,0 +1,33 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+
+body{
+	background: #0b4091;
+}
+
+.container{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.container button{
+	width: 200px;
+	padding: 26px;
+	color: #fafafa;
+	background: linear-gradient(145deg,#0a3a83,#0c449b);
+	border: none;
+	border-radius: 12px;
+	font-size: 1.3rem;
+	box-shadow: 5px 5px 10px #09367b,
+				-5px -5px 10px #0d4aa7;
+}
+
+.container button:active{
+	box-shadow: inset 5px 5px 10px #09367b,
+				-5px -5px 10px #0d4aa7;
+}
